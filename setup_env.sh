@@ -33,7 +33,7 @@ fi
 
 if [[ -z "${INDIC_NLP_RESOURCES}" ]]; then
   git clone https://github.com/anoopkunchukuttan/indic_nlp_resources
-  export INDIC_NLP_RESOURCES="${PWD}/indic_nlp_resources"
+  export INDIC_NLP_RESOURCES="${EXPDIR}/indic_nlp_resources"
 else
   echo "Indic NLP Resources exists"
 fi
