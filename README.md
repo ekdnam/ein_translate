@@ -1,2 +1,2 @@
-# ein_translate
+# ez_translate
  Toolkit to preprocess and translate
